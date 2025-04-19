@@ -2,6 +2,7 @@ import Counter from "./components/Counter"
 import TodoList from "./components/TodosList"
 import ThemeToggler from "./components/ThemeToggler"
 import Cart from "./components/Cart"
+import Auth from "./components/Auth"
 import { useSelector } from "react-redux"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Counter />
         <TodoList />
         <Cart />
+        <Auth />
       </div>
     </div>
   )
