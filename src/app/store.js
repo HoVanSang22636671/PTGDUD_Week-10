@@ -6,6 +6,7 @@ import cartReducer from '../features/cart/cartSlice';
 import authReducer from '../features/auth/authSlice';
 import usersReducer from '../features/users/usersSlice';
 import counterAdvancedReducer from '../features/counterAdvanced/counterAdvancedSlice';
+import bmiReducer from '../features/bmi/bmiSlice';
 
 export const store = configureStore({
     reducer: {
@@ -16,5 +17,6 @@ export const store = configureStore({
         auth: authReducer,
         users: usersReducer,
         counterAdvanced: counterAdvancedReducer,
+        bmi: bmiReducer,
     },
 });

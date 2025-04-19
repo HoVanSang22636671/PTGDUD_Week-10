@@ -5,6 +5,7 @@ import Cart from "./components/Cart"
 import Auth from "./components/Auth"
 import UsersList from "./components/UsersList"
 import CounterAdvanced from "./components/CounterAdvanced"
+import BMICalculator from "./components/BMICalculator";
 import { useSelector } from "react-redux"
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Auth />
         <UsersList />
         <CounterAdvanced />
+        <BMICalculator />
       </div>
     </div>
   )
