@@ -7,6 +7,7 @@ import UsersList from "./components/UsersList"
 import CounterAdvanced from "./components/CounterAdvanced"
 import BMICalculator from "./components/BMICalculator";
 import EventManager from "./components/EventManager"
+import Store from "./components/Store"
 import { useSelector } from "react-redux"
 
 function App() {
@@ -17,13 +18,14 @@ function App() {
       <div className="min-h-screen flex flex-col items-center justify-center gap-6 py-10">
         <ThemeToggler />
         {/* <Counter /> */}
-        <TodoList />
+        {/* <TodoList /> */}
         <Cart />
-        <Auth />
+        {/* <Auth />
         <UsersList />
         <CounterAdvanced />
         <BMICalculator />
-        <EventManager />
+        <EventManager /> */}
+        <Store />
       </div>
     </div>
   )

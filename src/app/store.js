@@ -8,6 +8,7 @@ import usersReducer from '../features/users/usersSlice';
 import counterAdvancedReducer from '../features/counterAdvanced/counterAdvancedSlice';
 import bmiReducer from '../features/bmi/bmiSlice';
 import eventsReducer from '../features/events/eventsSlice';
+import productReducer from "../features/products/productsSlice";
 export const store = configureStore({
     reducer: {
         counter: couterReducer,
@@ -19,5 +20,6 @@ export const store = configureStore({
         counterAdvanced: counterAdvancedReducer,
         bmi: bmiReducer,
         events: eventsReducer,
+        products: productReducer,
     },
 });
