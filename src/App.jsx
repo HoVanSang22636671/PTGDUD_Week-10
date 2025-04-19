@@ -6,6 +6,7 @@ import Auth from "./components/Auth"
 import UsersList from "./components/UsersList"
 import CounterAdvanced from "./components/CounterAdvanced"
 import BMICalculator from "./components/BMICalculator";
+import EventManager from "./components/EventManager"
 import { useSelector } from "react-redux"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <UsersList />
         <CounterAdvanced />
         <BMICalculator />
+        <EventManager />
       </div>
     </div>
   )
