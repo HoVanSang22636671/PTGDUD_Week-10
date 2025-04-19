@@ -3,6 +3,7 @@ import TodoList from "./components/TodosList"
 import ThemeToggler from "./components/ThemeToggler"
 import Cart from "./components/Cart"
 import Auth from "./components/Auth"
+import UsersList from "./components/UsersList"
 import { useSelector } from "react-redux"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <TodoList />
         <Cart />
         <Auth />
+        <UsersList />
       </div>
     </div>
   )
