@@ -4,6 +4,7 @@ import ThemeToggler from "./components/ThemeToggler"
 import Cart from "./components/Cart"
 import Auth from "./components/Auth"
 import UsersList from "./components/UsersList"
+import CounterAdvanced from "./components/CounterAdvanced"
 import { useSelector } from "react-redux"
 
 function App() {
@@ -13,11 +14,12 @@ function App() {
     <div className={theme === "dark" ? "dark bg-gray-900 text-white" : "bg-white text-black"}>
       <div className="min-h-screen flex flex-col items-center justify-center gap-6 py-10">
         <ThemeToggler />
-        <Counter />
+        {/* <Counter /> */}
         <TodoList />
         <Cart />
         <Auth />
         <UsersList />
+        <CounterAdvanced />
       </div>
     </div>
   )
